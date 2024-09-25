@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#banner{
+    width: 100%;
+    height: 50px;
+    background-image: url("bannerbackground.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.content-area{
+    width: 800px;
+    border: 4px solid gray;
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.rating-over-con{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.left-con{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.rating-sec{
+    width: 100%;
+    background-image: url("rottenbackground.png");
+    background-repeat: repeat-x;
+    background-position: left top;
+    display: flex;
+    align-items: end;
+}
+.rating-pre{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+}
+.rating-view{
+    font-size: 8pt;
+    color: white;
+}
+.content-review{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: right;
+}
+.review-col{
+    width: 47%;
+    margin-right: 2%;
+}
+.review-box{
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+.icon{
+    float: left;
+    margin-right: 5px;
+    width: 20px;
+    height: auto;
+}
+.quote{
+    text-align: justify;
+    font-size: 8pt;
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 1;
+} 
+.review-info{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.name-con{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.review-name{
+    font-style: normal;
+}
+.pub{
+    font-style: italic;
+}
+.critic{
+    margin-right: 5px;
+}
+.overview{
+    width: 250px;
+    background-color: #A2B964;
+    padding: 10px;
+    font-size: 8pt;
+    font-family: Arial, sans-serif; 
+}
+dt{
+    font-size: 10pt;
+    font-weight: bold;
+}
+.review-explan{
+    background-color: #A2B964;
+    text-align: center;
+    padding: 5px;
+}
+.validator-links{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+}
+
